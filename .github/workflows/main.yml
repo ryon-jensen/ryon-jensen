@@ -1,7 +1,9 @@
 name: Hello World Workflow
 
 # Defines when the action will run.
-on: [push]
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 # Jobs that the workflow will execute
 jobs:
