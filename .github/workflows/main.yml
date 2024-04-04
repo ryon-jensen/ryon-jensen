@@ -21,4 +21,4 @@ jobs:
       run: echo "Hello, World! My first GitHub Actions workflow!"
 
     - name: Show Repository Variable
-      run: echo "Dependency URL: ${{ secrects.DEPENDENCYURL }}"
+      run: echo "Dependency URL ${{ secrects.DEPENDENCYURL }}"
